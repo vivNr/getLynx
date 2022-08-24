@@ -1,5 +1,5 @@
 ### Coding Assessment
-
+# Before testing (npm install) first to install the package
 1. # Get All Products By Maximum View Counts 
 # URL: http://localhost:8081/api/products
 # Aove result will give top 5 maximum views for the product if view count greater then 0

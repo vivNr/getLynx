@@ -15,5 +15,5 @@
 
 # Custom query param
 #  ?currency=CAD
-# Example:  http://localhost:8081/api/product?currency=CAD
+# Example:  http://localhost:8081/api/product?currency=CAD&id=1
 # Above result will convert price to CAD currency

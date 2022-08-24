@@ -1,0 +1,29 @@
+{
+	"name": "vivek-ram-api",
+	"author": "Vivek Narayan",
+	"version": "1.0.0",
+	"description": "vivek-ram API",
+	"main": "server.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zencast-Media/settingNeeds-apis.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Zencast-Media/settingNeeds-apis/issues"
+	},
+	"homepage": "https://github.com/Zencast-Media/settingNeeds-apis#readme",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"helmet": "^4.4.1",
+		"i": "^0.3.7",
+		"mysql2": "^2.3.3",
+		"npm": "^8.18.0",
+		"pg": "^8.5.1",
+		"sequelize": "^6.6.5"
+	}
+}

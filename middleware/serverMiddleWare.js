@@ -3,7 +3,7 @@ const app = require('../app');
 const helmet = require('helmet');
 app.use(function (req, res, next) {
 	/* Access allowed to Vivek's IP
-	if((req.headers['postman-token'] !==undefined || req.headers['postman-token'] != null || req.headers['postman-token'] > 0) && !(req.ip.includes('122.163.176.191') || req.ip.includes('::1') )) {
+	if((req.headers['postman-token'] !==undefined || req.headers['postman-token'] != null || req.headers['postman-token'] > 0) && !(req.ip.includes('###.###.###.###') || req.ip.includes('::1') )) {
 		res.send({'message': "Not Authorized"});
 		return false;
 	}*/
